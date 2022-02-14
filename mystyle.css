@@ -1,0 +1,136 @@
+/*entete*/
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C55394;
+}
+li
+{
+    float: right;
+}
+li a
+{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: x-small;
+    padding-top: 20px;
+}
+li a.active 
+{
+    background-color: #EB43A3;
+    color: #FFF;
+}
+li a:hover:not(.active)
+{
+    background-color: #EB43A3;
+    color: #FFF;
+}
+
+body
+{
+    background-image: url("background.png");
+    position: relative;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+/*rainbow*/
+
+.arcenciel
+{
+    position: absolute;
+    z-index: -1;
+    margin-left: 30%;
+}
+.boxshadow
+{
+    background-color: #FFF;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 2%;
+    
+    box-shadow: 5px 5px 5px 1px #333;
+}
+h1
+{
+    color: #C55394;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+h2
+{
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+}
+h3
+{
+    color: #C55394;
+    font-family: 'Courgette', cursive;
+}
+
+/*image nos licornes*/
+.flex
+{
+    display: flex;
+    position: relative;
+}
+.cardlicorne
+{
+    margin-left: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+.cardlicorne:hover
+{
+    transform: scale(1.2);
+}
+.licornes
+{
+    width: 90%;
+}
+.container
+{
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+    color: #FFF;
+    width: 223px;
+    text-align: center;
+}
+
+/*contact*/
+.flexcontainer
+{
+    display: flex;
+}
+.flexcontainer > div
+{
+    margin-left: 20px;
+}
+button
+{
+    background-color: #C55394;
+    color: #FFF;
+    border: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+footer
+{
+    text-align: right;
+    padding-bottom: 10px;
+    background-color: #EB43A3;
+    color: #FFF;
+    font-size: x-small;
+    padding: 0;
+}
